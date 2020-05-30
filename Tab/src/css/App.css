@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #353b48;
+}
+
+.App {
+  background: #353b48;
+  color: white;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  ;
+}
+
+.App h2 del {
+  font-weight: 400;
+  font-size: 18px;
+  color: #a2a2a2;
+}
+
+.App form {
+  margin-top: 40px;
+  position: relative
+}
+
+.App input {
+  width: 380px;
+  padding: 18px 50px 18px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: #4e4e4e;
+}
+
+.App button {
+  background: none;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 10px;
+  top: 15px
+}
+
+.App button:hover {
+  cursor: pointer;
+}
+
+.App p {
+  width: 100%;
+  background: #6b717d;
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+}
